@@ -1,0 +1,30 @@
+{
+    "name": "danielrhodeswarp/git-branch-bubble",
+    "description": "Display the current Git branch on every page of your Laravel 5 project",
+    "keywords": [
+        "laravel",
+        "git",
+        "current branch",
+        "git branch",
+        "branch"
+    ],
+    "homepage": "https://github.com/danielrhodeswarp/git-branch-bubble",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Rhodes",
+            "email": "daniel.rhodes@warpasylum.co.uk"
+            
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.3.0",
+        "sebastian/git": "2.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danielrhodeswarp\\GitBranchBubble\\": "src"
+        }
+    }
+}
