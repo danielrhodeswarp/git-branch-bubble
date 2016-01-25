@@ -9,6 +9,8 @@ developing your Laravel 5 projects. It's useful if you are paranoid, forgetful o
 
 `composer require --dev danielrhodeswarp/git-branch-bubble`
 
+Then add `Danielrhodeswarp\GitBranchBubble\GitBranchBubbleServiceProvider::class` to the `'providers'` bit of your project's /config/app.php
+
 ## Config
 
 You may publish the gitbranchbubble.php config file into your project (`php artisan vendor:publish`) and then tinker with some visual properties of the bubble.
