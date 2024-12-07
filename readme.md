@@ -1,4 +1,4 @@
-# Git Branch Bubble
+# git-branch-bubble
 
 ## What's this?
 
